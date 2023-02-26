@@ -18,4 +18,4 @@ print(c)
 
 
 # 쉬운 버전
-print(int(input())//4*'long ', 'int')
+print(int(input())//4*'long '+'int')    # 마지막 'long '과 'int'는 붙여서 출력해야 하므로, ','가 아닌'+'로 붙여서 출력
