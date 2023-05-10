@@ -4,7 +4,7 @@ learn baekjoon python by my self.
 #은 수식 설명
 
 import sys
-input=sys.stdin.readline     #input 값을 추가로 설정(?)
+input=sys.stdin.readline     # input 값을 추가로 설정(?)
 a = int(input())             
 for i in range(a):           
     b = 0                    # 0인 값을 설정
