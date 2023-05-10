@@ -3,7 +3,7 @@ learn baekjoon python by my self.
 
 #은 수식 설명
 
-a = []
+a = []                                 # 빈 리스트 생성
 b = []
 c = []
 while 1:                               # while 뒤에 0이 아닌 수를 입력하면 별 다른 조건을 넣지 않는 한 지속됨
