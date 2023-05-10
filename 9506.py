@@ -15,7 +15,7 @@ while 1:                                   # 조건 없이 무한 반복
                 s.append(i)
             else:
                 pass
-        if sum(s) == n:                    # 리스트합과 주어진 수가 같은경우, 완전수인 경우
+        if sum(s) == n:                    # 리스트 합과 주어진 수가 같은경우= 완전수인 경우
             print(n, '=', end=' ')         # 처음엔 주어진 수와 '='을 가로로 출력(이어짐)
             for j in range(len(s)-1):      
                 print(s[j], end=' ')       # 1부터 (len(s)-2)까지 s[j]를 가로로 출력(이어짐)....(1)
