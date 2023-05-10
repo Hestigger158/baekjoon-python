@@ -10,7 +10,7 @@ for i in range(t):
     a, b = map(int, input().split())
     result += a*b                          # a*b의 값을 계속 더함 
     
-if result == n:
+if result == n:                            # 더한 값이 총합과 같다면 yes 출력
     print("Yes")
 else:
     print("No")
