@@ -5,4 +5,4 @@ learn baekjoon python by my self.
 
 n = int(input())
 for i in range(n):
-    print(str('*'*(i+1)).rjust(n))         # rjust(n)은 n개의 칸 중에서 우측정렬이라는 뜻
+    print(str('*'*(i+1)).rjust(n))         # rjust(n)은 n개의 칸 중에서 우측정렬로 출력하게 함
