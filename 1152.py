@@ -5,6 +5,8 @@ learn baekjoon python by my self.
 
 a = input()                    
 b = list(a.split())            # 주어진 문자열을 공백을 기준으로 리스트화
-print(len(b))                  # 리스트의 갯수를 추출
+print(len(b))                  # 리스트의 갯수를 출력
 
-print(len(list(input().split())))    # 한 줄로 요약
+
+# 한 줄로 답안 작성 가능
+print(len(list(input().split())))
