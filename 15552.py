@@ -12,7 +12,7 @@ for i in range(t):
     
  #a, b를 사용하지 않고 바로 푸는 방식 
  
-    import sys
+import sys
 t = int(input())
 for i in range(t):
     print(sum(map(int, sys.stdin.readline().split())))
