@@ -5,7 +5,7 @@ learn baekjoon python by my self.
 
 a = input()
 b = ['ABC', 'DEF', 'GHI', 'JKL', 'MNO', 'PQRS', 'TUV', 'WXYZ']      # 각 전화번호에 있는 알파벳을 리스트화
-c = 0
+c = 0                                                               # 시간을 나타내기 위한 숫자를 생성
 for n in range(len(a)):                                            
     for i in b:                                                      
         if a[n] in i:                                               # a[n]이 i(b의 각 목록)에 포함될 경우
