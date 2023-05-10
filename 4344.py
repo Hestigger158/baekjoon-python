@@ -6,7 +6,7 @@ learn baekjoon python by my self.
 n = int(input())
 for i in range(n):
     b = list(map(int, input().split()))        # 2번째 줄부터 주어진 수를 리스트화
-    c = sum(b[1:])/b[0]                        # c(평균)=(리스트b의 1항부터 끝까지 = (점수의 합))/(리스트b의 0항 =(점수의 갯수))
+    c = sum(b[1:])/b[0]                        # c(평균)=(점수의 합)/(점수의 갯수)
     d = 0                                      # 평균이상의 점수 갯수를 알기 위한 임의의 수 생성
     for e in b[1:]:                            
         if e > c:                              # e의 값이 평균 c의 값보다 높은 경우
