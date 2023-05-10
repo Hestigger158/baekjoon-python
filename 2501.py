@@ -7,7 +7,7 @@ n, k = map(int, input().split())
 a = []                                    # 약수를 집어넣기 위한 빈 리스트
 for i in range(1,n+1):                    # 1부터 n까지 반복문
     b = n%i                               # n(주어진 수)를 i로 나눴을 때 나머지
-    if b == 0:                            # 나머지가 0일 때 리스트 a에 나머지가 0이되는 i값을 추가
+    if b == 0:                            # 나머지가 0일 때 리스트 a에 나머지가 0이되는 i 값을 추가
         a.append(i)
     else:                                
         pass
