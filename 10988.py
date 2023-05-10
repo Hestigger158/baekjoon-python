@@ -24,9 +24,9 @@ else:
             
             
            
-#다른사람 풀이방법
+#다른 방법
 s = list(str(input()))           # 주어진 단어를 리스트화
-if list(reversed(s) == s:        # 거꾸로한 리스트와 리스트가 같은 경우
+if list(reversed(s)) == s:        # 거꾸로한 리스트와 리스트가 같은 경우
     print(1)
 else:
     print(0)
